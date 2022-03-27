@@ -1,0 +1,75 @@
+* {
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.checkout {
+  margin: 0 auto;
+  padding: 64px 20% 24px;
+}
+
+.checkout__title {
+  font-size: 36px;
+  color: #4e5150;
+}
+
+.checkout__main {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  margin-top: 51px;
+}
+
+.checkout__address__title {
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.checkout__address__string {
+  font-size: 12px;
+  color: #4f4f4f;
+}
+
+.checkout__items {
+  background: #f2f2f2;
+  border-radius: 12px;
+  padding: 33px 28px 14px;
+}
+
+.checkout__item {
+  display: flex;
+}
+
+.checkout__item > img {
+  width: 40%;
+  margin-right: 20px;
+}
+
+.checkout__item__name {
+  color: #4e5150;
+}
+
+.checkout__item__price {
+  color: #f2994a;
+  font-style: normal;
+}
+
+.checkout__item {
+  margin-bottom: 95px;
+}
+
+.checkout__item__price__base {
+  color: #4e5150;
+  font-size: 12px;
+  text-decoration-line: line-through;
+  margin-left: 10px;
+}
+
+.checkout__ship {
+  display: flex;
+  justify-content: space-between;
+  color: #333333;
+  border-top: 1px solid #bdbdbd;
+  padding: 11px 0;
+}
