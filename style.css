@@ -25,6 +25,9 @@
   font-size: 18px;
   margin-bottom: 15px;
 }
+.checkout__address__title.ship {
+  margin-top: 58px;
+}
 
 .checkout__address__string {
   font-size: 12px;
@@ -35,7 +38,6 @@
   position: relative;
 }
 .checkout__address__input > input {
-  color: #828282;
   padding: 18px 52px;
   margin-top: 7px;
   border: 1px solid #828282;
@@ -56,6 +58,7 @@
   background: #f2f2f2;
   border-radius: 12px;
   padding: 33px 28px 14px;
+  max-height: 535px;
 }
 
 .checkout__item {
@@ -93,4 +96,8 @@
   color: #333333;
   border-top: 1px solid #bdbdbd;
   padding: 11px 0;
+}
+
+.checkout__ship.shipping {
+  margin-top: 105px;
 }
