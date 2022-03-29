@@ -101,3 +101,15 @@
 .checkout__ship.shipping {
   margin-top: 105px;
 }
+
+.checkout__address__code {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  /* grid-auto-columns: minmax(100px, auto); */
+  grid-auto-columns: min-content;
+}
+
+.checkout__address__code > input {
+  min-width: 232px;
+}
