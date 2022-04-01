@@ -44,6 +44,13 @@
   border-radius: 12px;
   min-width: 465px;
 }
+.checkout__address__input > select {
+  padding: 18px 52px;
+  margin-top: 7px;
+  border: 1px solid #828282;
+  border-radius: 12px;
+  min-width: 465px;
+}
 #check-phone {
   margin-top: 20px;
 }
@@ -105,11 +112,21 @@
 .checkout__address__code {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 10px;
-  /* grid-auto-columns: minmax(100px, auto); */
-  grid-auto-columns: min-content;
+  gap: 31px;
 }
 
-.checkout__address__code > input {
+.checkout__address__input.code > input {
   min-width: 232px;
+  padding: 17px 19px 17px 52px;
+}
+.checkout__address__input.code > select {
+  min-width: 232px;
+  appearance: none;
+  color: #828282;
+}
+
+#more {
+  background: #e0e0e0;
+  border-radius: 4px;
+  left: 190px;
 }
