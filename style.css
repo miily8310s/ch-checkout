@@ -97,6 +97,21 @@
   margin-left: 10px;
 }
 
+.checkout__item__number {
+  display: flex;
+  border: 1px solid #828282;
+  box-sizing: border-box;
+  border-radius: 12px;
+  padding: 16px 10px;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 31px;
+}
+
+.checkout__item__number > .material-icons {
+  color: #e0e0e0;
+}
+
 .checkout__ship {
   display: flex;
   justify-content: space-between;
@@ -106,7 +121,7 @@
 }
 
 .checkout__ship.shipping {
-  margin-top: 105px;
+  margin-top: 85px;
 }
 
 .checkout__address__code {
@@ -129,4 +144,49 @@
   background: #e0e0e0;
   border-radius: 4px;
   left: 190px;
+}
+
+.checkout__address__save {
+  display: flex;
+  align-items: center;
+  gap: 11px;
+  font-size: 12px;
+  margin: 23px 0;
+  color: #4f4f4f;
+}
+
+.checkout__address__continue {
+  display: flex;
+  justify-content: space-evenly;
+  color: #ffffff;
+  background-color: #f2994a;
+  padding: 17px 45px;
+  margin-left: 366px;
+  border-radius: 12px;
+}
+
+footer {
+  margin-top: 93px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.footer-user-name {
+  font-size: inherit;
+  font-weight: bold;
+  border-bottom: 1px solid;
+}
+
+@media screen and (max-width: 767px) {
+  .checkout {
+    padding: 32px 13px 24px 12px;
+  }
+  .checkout__main {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+  .checkout__address__continue {
+    margin-left: 300px;
+  }
 }
