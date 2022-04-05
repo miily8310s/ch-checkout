@@ -106,6 +106,7 @@
   justify-content: space-between;
   align-items: center;
   margin-top: 31px;
+  min-width: 140px;
 }
 
 .checkout__item__number > .material-icons {
